@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;    
+}
+
+tr {
+    border-bottom: thin solid #041154;
+}
+
+#header {
+    height: 100px;
+    border-bottom: thin solid black;
+    background-image: url(../images/VAGLogo-Horiz-K.svg);
+    background-repeat: no-repeat;
+    padding-left:300px;
+    padding-top:0px;
+    font-size: 20px;
+    line-height: 54px;
+    color: #041154;
+}
+
+#sidebar {
+    width: 250px;
+    border-right: thin solid black;
+    height: 100%;
+    background-color: #DDDDDD;
+    float:left;
+}
+
+#sidebarCloseButton {
+    background-image: url(../images/x.png);
+    cursor: pointer;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+#main {
+    padding: 100px 0px 0px 350px;
+}
+
+#pointsTbl {
+    color:#041154;
+}
+
+#pointsTbl td {
+    text-align: center;
+    border-bottom: thin solid #041154;
+    margin: 0px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+#pointsTblHdr th {
+    border-top: 3px solid #041154;
+    border-bottom: 3px solid #041154;
+    margin: 0px;
+    padding: 3px 8px;
+}
+
+.greenButton {
+    background-color: #00ac69;
+    color: white;
+    padding: 8px 16px;
+}
+
+.orangeButton {
+    background-color: #f39200;
+    color: white;
+    padding: 8px 16px;
+}
+
+.redButton {
+    background-color: #AA3333;
+    color: white;
+    padding: 8px 16px;
+}
+
+.tblRelative {
+    margin: 5px 0px 0px 10px;
+}
+
+.tblRelative td {
+    text-align: center;
+    border-bottom: thin solid black;
+    margin: 0px;
+    padding: 3px 8px;
+}
+
+.tblRelative th {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 0px;
+    padding: 3px 8px;
+}
